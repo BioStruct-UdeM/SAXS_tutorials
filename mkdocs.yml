@@ -1,0 +1,44 @@
+site_name: Analyzing SAXS data
+site_description: Analyzing SAXS data
+site_author: Normand Cyr
+
+#site_url:
+repo_url: https://github.com/normcyr
+#google_analytics:
+
+theme:
+  name: cinder
+  custom_dir: custom_theme/
+
+nav:
+  - Instrumentation: instrumentation.md
+  - Running a SAXS experiment: saxs_experiment.md
+  - Basic processing: basic_data_processing.md
+  - Advanced processing: advanced_data_processing.md
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+  - mdx_math
+  - fenced_code
+  - meta
+
+
+# All MkDocs themes: https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
+# original themes
+#theme: mkdocs
+#theme: readthedocs
+# https://github.com/notpushkin/mkdocs-alabaster not working at the moment
+#theme: alabaster
+# https://github.com/chrissimpkins/cinder
+#theme: cinder
+# https://mkdocs.github.io/mkdocs-bootswatch/
+#theme: cosmo
+#theme: flatly
+#theme: united
+#theme: yeti
+# https://github.com/byrnereese/mkdocs-bootstrap4
+#theme: bootstrap4
+# https://github.com/squidfunk/mkdocs-material
+#theme: material
