@@ -3,7 +3,7 @@ site_description: Analyzing SAXS data
 site_author: Normand Cyr
 
 site_url: http://airen.bcm.umontreal.ca/biostruct/SAXS_tutorials/
-repo_url: https://github.com/normcyr
+repo_url: https://github.com/BioStruct-UdeM/SAXS_tutorials
 
 theme:
   name: cinder
