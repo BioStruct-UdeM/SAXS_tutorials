@@ -2,9 +2,8 @@ site_name: Analyzing SAXS data
 site_description: Analyzing SAXS data
 site_author: Normand Cyr
 
-#site_url:
+site_url: http://airen.bcm.umontreal.ca/biostruct/SAXS_tutorials/
 repo_url: https://github.com/normcyr
-#google_analytics:
 
 theme:
   name: cinder
@@ -23,22 +22,3 @@ markdown_extensions:
   - mdx_math
   - fenced_code
   - meta
-
-
-# All MkDocs themes: https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
-# original themes
-#theme: mkdocs
-#theme: readthedocs
-# https://github.com/notpushkin/mkdocs-alabaster not working at the moment
-#theme: alabaster
-# https://github.com/chrissimpkins/cinder
-#theme: cinder
-# https://mkdocs.github.io/mkdocs-bootswatch/
-#theme: cosmo
-#theme: flatly
-#theme: united
-#theme: yeti
-# https://github.com/byrnereese/mkdocs-bootstrap4
-#theme: bootstrap4
-# https://github.com/squidfunk/mkdocs-material
-#theme: material
