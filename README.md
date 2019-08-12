@@ -4,4 +4,4 @@ Tutorials and howtos are presented in this documentation, formatted using [MkDoc
 
 To access the site: http://airen.bcm.umontreal.ca/biostruct/SAXS_tutorials/
 
-![Screenshot of the front page](docs/img/site_front_page_screenshot.png)
+![Screenshot of the front page](https://github.com/BioStruct-UdeM/SAXS_tutorials/raw/master/docs/img/screen_shots/site_front_page_screenshot.png)
