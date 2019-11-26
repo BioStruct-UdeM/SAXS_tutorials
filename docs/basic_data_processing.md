@@ -34,7 +34,7 @@ The average scattering profile will appear in RAW and `A_` will be added at the 
 
 ## Buffer subtraction
 
-Because SAXS is a contrast method where the scattering signal is obtained from the difference in electron density between a molecule in solution and bulk solvent, scattering resulting from the buffer has to be subtracted from the measured scattering of the sample to isolate the sole contribution from the sample. This is done in RAW by subtracting the averaged buffer scattering curve from the averaged sample scattering curve.
+Because SAXS is a contrast method where the scattering signal is obtained from the difference in electron density between a molecule in solution and bulk solvent, scattering resulting from the buffer has to be subtracted from the measured scattering of the sample to isolate the sole contribution from the molecule. This is done in RAW by subtracting the averaged buffer scattering curve from the averaged sample scattering curve.
 
 scattering profile = sample scattering - buffer scattering
 
