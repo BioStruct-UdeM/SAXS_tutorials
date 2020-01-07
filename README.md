@@ -1,6 +1,6 @@
 ## Description
 
-Documentation for the [(bio-)SAXS instrument](https://biochimie.umontreal.ca/plateformes-scientifiques-bmm/biologie-structurale/biosaxs/) of the [Structural Biology platform](https://biochimie.umontreal.ca/plateformes-scientifiques-bmm/biologie-structurale/) located in the [department of biochemistry and molecular medicine](https://biochimie.umontreal.ca) of the [Université de Montréal](https://biochimie.umontreal.ca/).
+Documentation for the [(bio-)SAXS instrument](https://biochimie.umontreal.ca/en/scientific-platforms-bmm/structural-biology/biosaxs/) of the [Structural Biology platform](https://biochimie.umontreal.ca/en/plateformes-scientifiques-bmm/biologie-structurale/) located in the [department of biochemistry and molecular medicine](https://biochimie.umontreal.ca/en) of the [Université de Montréal](https://umontreal.ca/en).
 
 Tutorials and howtos are presented in this documentation, formatted using [MkDocs](https://www.mkdocs.org/), and the theme [Cinder](https://github.com/chrissimpkins/cinder).
 
