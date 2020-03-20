@@ -1,2 +1,6 @@
+venv
+
 site
 pdf_references
+
+*.tar*
