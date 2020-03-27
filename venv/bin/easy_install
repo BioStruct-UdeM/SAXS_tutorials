@@ -1,4 +1,4 @@
-#!/home/norm/Nextcloud/UdeM/SAXS_tutorials/venv/bin/python3
+#!/home/norm/Nextcloud/UdeM/SAXS_tutorials/venv/bin/python
 
 # -*- coding: utf-8 -*-
 import re

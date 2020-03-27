@@ -1,13 +1,13 @@
 ---
 title: Home of the SAXS tutorial
 author: Normand Cyr
-date: 2019-03-18
+date: 2020-03-24
 ...
 
 
 # Welcome to the SAXS tutorials
 
-For information about the Structural Biology Platform, visit our [website](https://biochimie.umontreal.ca/plateformes-scientifiques-bmm/biologie-structurale/).
+For information about the Structural Biology Platform, visit our [website](https://biochimie.umontreal.ca/en/scientific-platforms-bmm/structural-biology/).
 
 To reserve time on the BioSAXS, fill up this [form](https://biochimie.umontreal.ca/wp-content/uploads/sites/37/2018/10/SAXS_time_request.pdf) and send it to the Structural Biology Platform manager, Normand Cyr, by [email](mailto:normand.cyr@umontreal.ca).
 
@@ -16,27 +16,38 @@ To reserve time on the BioSAXS, fill up this [form](https://biochimie.umontreal.
 
 Small-angle X-ray scattering (SAXS) is a technique used to derive low resolution structural information about the shape, size, electronic density, molecular weight and conformational changes of macromolecules in solution by taking advantage of the scattering intensities at different angles.
 
+![](img/curve_enveloppe.png)
+
 
 ## Tutorial sections
 
-- [Overview of the instrumentation](instrumentation.md) - to be familiar with the equipment in the laboratory
-- [Softwares used by the instrument](details_instrument_softwares.md)
-- [Running a SAXS experiment](saxs_experiment.md) - first steps into data acquisition
-- [Basic processing of SAXS data](basic_data_processing.md) - initial data analysis and sample quality assessment
-- [Advanced processing of SAXS data](advanced_data_processing.md) - calculation of the pairwise distribution function
-- [Modelling with DAMMIF](modelling_with_dammif.md) - dummy atom modelling from SAXS data using DAMMIF
-- [Modelling with DENSS](modelling_with_denss.md) - electron density modelling from SAXS data using DENSS
-
-![](img/curve_enveloppe.png)
+- Instrumentation:
+    - [Overview of the instrumentation](overview_instrumentation.md) - to be familiar with the equipment in the laboratory
+    - [Softwares](details_instrument_softwares.md) - softwares used by the instrument
+    - [Maintenance](maintenance.md) - basic maintenance procedures
+- SAXS experiment:
+    - [Running a SAXS experiment](saxs_experiment.md) - first steps into data acquisition
+    - [SEC-SAXS setup](sec-saxs_setup.md) - data acquisition in SEC-SAXS mode
+- Data processing:
+    - [Basic processing of SAXS data](basic_data_processing.md) - initial data analysis and sample quality assessment
+    - [Advanced processing of SAXS data](advanced_data_processing.md) - calculation of the pairwise distribution function
+    - [Dealing with SEC-SAXS data](sec-saxs.md) - analyzing your SEC-SAXS data
+- *Ab initio* modelling:
+    - [Modelling with DAMMIF](modelling_with_dammif.md) - dummy atom modelling from SAXS data using DAMMIF
+    - [Modelling with DENSS](modelling_with_denss.md) - electron density modelling from SAXS data using DENSS
 
 
 ## References for this tutorial
 
-### Softwares
+### Softwares required
 
-- [BioXTAS RAW tutorial](https://bioxtas-raw.readthedocs.io/en/latest/index.html)
+The instructions on how to install individual softwares on your personal computer are details on their respective websites.
+
+- [BioXTAS RAW](https://bioxtas-raw.readthedocs.io/en/latest/index.html)
 - [ATSAS manuals](https://www.embl-hamburg.de/biosaxs/manuals/)
 - [DENSS manual](https://www.tdgrant.com/denss/tutorial/)
+
+Alternatively, the Structural Biology Platform has computers available where recent versions of these softwares are installed. Access to the computer room is controlled by access codes. Contact [Normand Cyr](maito:normand.cyr@umontreal.ca) in order to obtain a code.
 
 
 ### Scientific literature

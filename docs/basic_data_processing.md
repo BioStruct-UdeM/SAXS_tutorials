@@ -1,7 +1,7 @@
 ---
 title: Basic SAXS data processing
 author: Normand Cyr
-date: 2019-05-10
+date: 2020-03-23
 ...
 
 # Basic data processing
@@ -164,6 +164,11 @@ Source: [Putnam *et al* (2007)]
 Once all this hard work has been done, RAW lets you save your "workspace", which includes all the analysis results and the parameters used to display the results. This is helpful in order to re-open all the curves at a later time. Via the `File` menu, click on `Save Workspace`. Give it a meaningful name (*e.g.* `basic_data_processing`) and save it in
 
 `<project_name>/workspaces/`
+
+
+## Moving on to the next steps
+
+[Advanced data processing and *ab initio* modelling](/advanced_data_processing/)
 
 
 [Myatt *et al* 2017]: https://content.iospress.com/articles/biomedical-spectroscopy-and-imaging/bsi167

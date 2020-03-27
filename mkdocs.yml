@@ -10,15 +10,38 @@ theme:
   custom_dir: custom_theme/
 
 nav:
-  - Instrumentation: instrumentation.md
-  - Running a SAXS experiment: saxs_experiment.md
-  - Basic processing: basic_data_processing.md
-  - Advanced processing: advanced_data_processing.md
+  - Instrumentation:
+    - Overview: overview_instrumentation.md
+    - Softwares: details_instrument_softwares.md
+    - Maintenance: maintenance.md
+  - Running a SAXS experiment:
+    - Basic SAXS: saxs_experiment.md
+    - SEC-SAXS: sec-saxs_setup.md
+  - Data processing:
+    - Basic data processing: basic_data_processing.md
+    - Advanced processing: advanced_data_processing.md
+    - SEC-SAXS data processing: sec-saxs.md
+  - Ab initio modelling:
+    - DAMMIF: modelling_with_dammif.md
+    - DENSS: modelling_with_denss.md
+
+extra_css:
+    - css/extra.css
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+dev_addr:
+  127.0.0.1:8080
 
 markdown_extensions:
   - mdx_math
   - fenced_code
   - meta
+  - sane_lists
+  - toc:
+      toc_depth: 3
+
+plugins:
+  - search
+  - bootstrap-tables
