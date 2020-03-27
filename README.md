@@ -20,6 +20,7 @@ This will install the following (and associated requirements):
 - MkDocs (`mkdocs`)
 - MkDocs Cinder theme (`mkdocs-cinder`)
 - Math extension for Python-Markdown (`python-markdown-math`)
+- MkDocs Bootstrap tables plugin (`mkdocs-bootstrap-tables-plugin`)
 
 Then serve the website lcoally with MkDocs:
 
@@ -39,6 +40,7 @@ This will install the following (and associated requirements):
 - MkDocs (`mkdocs`)
 - MkDocs Cinder theme (`mkdocs-cinder`)
 - Math extension for Python-Markdown (`python-markdown-math`)
+- MkDocs Bootstrap tables plugin (`mkdocs-bootstrap-tables-plugin`)
 
 Then build the website with MkDocs
 
