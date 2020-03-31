@@ -158,6 +158,16 @@ A folded sample will display a parabolic curve in the low \(q\) region, whereas 
 
 Source: [Putnam *et al* (2007)]
 
+It is also possible with RAW to display a normalized Kratky plot (normalization by molecular mass and concentration) or a dimensionless Kratky plot (by \(R_g\) or \(V_c\)). To do so, right-click on the subtracted SAXS profile and select `Normalized Kratky Plots` (the [Guinier analysis](#guinier-analysis) has to be done). A new window will pop up.
+
+*Note that data may be cut to a certain \(q_{max}\). Here, 0.25 \(Å^{-1}\) would make sense.*
+
+![Normalized Kratky plot options](img/normalized-kratky-popup.png)
+
+By default, the plot drawn is a dimensionless \(R_g\) plot, where dashed gray lines illustrate guidelines for a globular protein: peak position at qRg of \(\sqrt{3}\) (~1.73) and peak height of 3/𝑒 (~1.1).
+
+You can use the `SAVE` button to export the figure, or right-click on the plot and select `Export Data As CSV` to save the raw numerical data and re-plot everything in your preferred plotting software.
+
 
 ## Saving your workspace
 
