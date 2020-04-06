@@ -1,7 +1,7 @@
 ---
 title: Home of the SAXS tutorial
 author: Normand Cyr
-date: 2020-03-24
+date: 2020-04-06
 ...
 
 
