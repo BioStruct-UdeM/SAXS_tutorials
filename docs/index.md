@@ -39,6 +39,14 @@ Small-angle X-ray scattering (SAXS) is a technique used to derive low resolution
 
 ## References for this tutorial
 
+### Demonstration data
+
+If you would like to explore this tutorial with demonstration data, you can download these datasets:
+
+- [lysozyme dataset](https://github.com/BioStruct-UdeM/lysozyme_SAXS_tutorial_data/archive/v1.1.zip) (ZIP file) for batch mode analysis. More experimental details and data organization on the [GitHub page](https://github.com/BioStruct-UdeM/lysozyme_SAXS_tutorial_data).
+- [BSA dataset](https://github.com/BioStruct-UdeM/BSA_SEC-SAXS_tutorial_data/archive/v1.0.zip) (ZIP file) for SEC-SAXS analysis. More experimental details and data organization on the [GitHub page](https://github.com/BioStruct-UdeM/BSA_SEC-SAXS_tutorial_data).
+
+
 ### Softwares required
 
 The instructions on how to install individual softwares on your personal computer are details on their respective websites.
