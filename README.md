@@ -22,7 +22,7 @@ This will install the following (and associated requirements):
 - Math extension for Python-Markdown (`python-markdown-math`)
 - MkDocs Bootstrap tables plugin (`mkdocs-bootstrap-tables-plugin`)
 
-Then serve the website lcoally with MkDocs:
+Then serve the website locally with MkDocs:
 
 `mkdocs serve`
 
@@ -46,10 +46,10 @@ Then build the website with MkDocs
 
 `mkdocs build`
 
-Finally, copy the static site files to the root folder of your webserver:
+Finally, copy the static site files to the root folder of your web server:
 
 `cp -r site/* /path/to/server/root`
 
-The site should then be available online. Make sure you adjust the `/path/to/server/root` to match the configuration of webserver.
+The site should then be available online. Make sure you adjust the `/path/to/server/root` to match the configuration of web server.
 
 More information [here](https://www.mkdocs.org/user-guide/deploying-your-docs/).

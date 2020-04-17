@@ -1,3 +1,9 @@
+---
+title: Maintenance procedures
+author: Normand Cyr
+date: 2020-04-17
+...
+
 # Maintenance
 
 ## X-ray source
@@ -18,13 +24,13 @@ TBD
 
 ## BioSAXS instrument
 
-### Softwares
+### Software
 
-Several softwares are in place in order to control the various pieces of the BioSAXS instrument.
+Several pieces of software are in place in order to control the various pieces of the BioSAXS instrument.
 
 #### SPEC
 
-SPEC is the terminal software used to communicate between the various other softwares and the instrumental hardware of the BioSAXS (shutter, detector *etc*.). A terminal window should be open on the desktop. If not, SPEC can be started from the shortcut bar located at the bottom of the screen, by clicking on SPEC.
+SPEC is the terminal software used to communicate between the various other software and the instrumental hardware of the BioSAXS (shutter, detector *etc*.). A terminal window should be open on the desktop. If not, SPEC can be started from the shortcut bar located at the bottom of the screen, by clicking on SPEC.
 
 ![SAXSLAB shortcut SPEC](img/saxslab_shortcuts_spec.png)
 

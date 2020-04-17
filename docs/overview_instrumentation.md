@@ -1,7 +1,7 @@
 ---
 title: Overview of the instrumentation
 author: Normand Cyr
-date: 2019-03-18
+date: 2020-04-17
 ...
 
 # Overview of the instrumentation
@@ -13,9 +13,9 @@ The SAXSLAB Bio-Nordic is equipped with a vacuum GANESHA platform which enables 
 
 ![](img/saxs-pictures.png)
 
-## Softwares
+## Software
 
-Several softwares are in place in order to control the various pieces of the BioSAXS instrument. The toolbar to open them is located at the bottom of the screen and looks like the following:
+Several pieces of software are in place in order to control the various pieces of the BioSAXS instrument. The toolbar to open them is located at the bottom of the screen and looks like the following:
 
 ![SAXSLAB shortcut](img/saxslab_shortcuts.png)
 
@@ -31,11 +31,11 @@ Each button is responsible for opening a different software.
 | RAW    | BioXtas RAW for data visualization and analysis           |
 | ED     | `gedit` text editor                                       |
 
-If a button is yellow, it means the software is closed, whereas a blue button indicates that the corresponding software is open. By clicking the blue-coloured button, you will be directed to the corresponding window.
+If a button is yellow, it means the software is closed, whereas a blue button indicates that the corresponding software is open. By clicking the blue-colored button, you will be directed to the corresponding window.
 
 *Note: in case that the toolbar is not present, it can be opened manually by clicking on the `Ganesha System Control Panel` on the desktop.*
 
-Details about the various windows can be found [here](details_instrument_softwares.md).
+Details about the various windows can be found [here](details_instrument_software.md).
 
 
 ## X-ray source
@@ -62,7 +62,7 @@ The Bio-Nordic is equipped with a Dectris hybrid photon counting detector ([PILA
 
 ### Positioning of the detector
 
-The detector is installed on rails and can therefore be positionned at any desired distance from the sample. The current detector configurations available are listed in the table below.
+The detector is installed on rails and can therefore be positioned at any desired distance from the sample. The current detector configurations available are listed in the table below.
 
 ![](img/instrument_detector_positions.png)
 

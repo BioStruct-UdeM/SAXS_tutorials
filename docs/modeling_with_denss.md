@@ -1,7 +1,7 @@
 ---
-title: Modelling with DENSS
+title: Modeling with DENSS
 author: Normand Cyr
-date: 2019-07-03
+date: 2020-04-17
 ...
 
 A web-based front-end is available at [https://denss.ccr.buffalo.edu/](https://denss.ccr.buffalo.edu/).

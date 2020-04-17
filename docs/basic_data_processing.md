@@ -1,7 +1,7 @@
 ---
 title: Basic SAXS data processing
 author: Normand Cyr
-date: 2020-03-23
+date: 2020-04-17
 ...
 
 # Basic data processing
@@ -78,7 +78,7 @@ The Guinier approximation states that, at low \(q\):
 
 $$I(q)\approx I(0)\exp{\frac{-q^2{R_g}^2}{3}}$$
 
-A Guinier plot is contructed by plotting \(\ln{I(q)}\) against \(q^2\). Problematic sample behaviour will exhibit a non-linear trend towards low \(q\), where aggregation will be represented by an upward curve whereas a downward curve will be typical of particles repulsion.
+A Guinier plot is constructed by plotting \(\ln{I(q)}\) against \(q^2\). Problematic sample behavior will exhibit a non-linear trend towards low \(q\), where aggregation will be represented by an upward curve whereas a downward curve will be typical of particles repulsion.
 
 ![Guinier plots and aggregation example](img/guinier-aggregation.png)
 
@@ -100,7 +100,7 @@ When you are done, take note of the results: \(R_g\) and \(I(0)\), and their res
 
 You can close the window by clicking on `OK`. The results will also be saved in the `### HEADER:` section of the `.dat` file, si it is important to save the changes to the subtracted SAXS profile.
 
-**Quick tip**: in order to retreive the results from the Guinier analysis from the command line, you can use the following command:
+**Quick tip**: in order to retrieve the results from the Guinier analysis from the command line, you can use the following command:
 
 `sed -n '/"guinier": {/,/#        }/p' S_A_<experiment_number><sample_name>`
 
@@ -131,13 +131,13 @@ which will output:
 
 ## Molecular weight analysis
 
-If the sample does not exhibit an aggregation or repulsion behaviour at high (or low) concentrations, a plot of \(I(0)\) *vs* sample concentation will give a linear correlation, and will not be affected by particle shape (\(R_g\) should remain relatively constant). In fact, in terms of absolute scale, \(I(0)\) corresponds to the square of the number of electrons in the scattering sample.
+If the sample does not exhibit an aggregation or repulsion behavior at high (or low) concentrations, a plot of \(I(0)\) *vs* sample concentration will give a linear correlation, and will not be affected by particle shape (\(R_g\) should remain relatively constant). In fact, in terms of absolute scale, \(I(0)\) corresponds to the square of the number of electrons in the scattering sample.
 
 Practically, the scattering intensity \(I(q)\) is measured on a relative scale and one can use a sample of known molecular weight as standard. For example, for proteins, lysozyme (14.3 kDa) and monomeric EGFP (26.9 kDa) (as illustrated by [Myatt *et al.* 2017]) are routinely used at the Structural Biology Platform and recent scattering data at precise concentration are readily available for standardization. From the \(I(0)\) determined using the Guinier analysis above, and the \(I(0)\) of a standard sample, the molecular weight of the sample \(M_{sample}\) can be calculated using the following equation:
 
 $$\frac{I(0)_{sample}}{I(0)_{standard}}=\frac{C_{sample}\times{M_{sample}}}{C_{standard}\times{M_{standard}}}$$
 
-Alternatively, RAW aggregates various algorithms developped to determine the molecular weight of a biomolecule (protein or RNA) based on its SAXS profile (*ie* the buffer-subtracted profile). You simply have to right-click on the subtracted curve filename and select `Molecular weight` in order to open the dialog window.
+Alternatively, RAW aggregates various algorithms developed to determine the molecular weight of a bio-molecule (protein or RNA) based on its SAXS profile (*ie* the buffer-subtracted profile). You simply have to right-click on the subtracted curve filename and select `Molecular weight` in order to open the dialog window.
 
 ![Molecular weight dialog window](img/molecular_weights.png)
 
@@ -148,7 +148,7 @@ There is also an associated web server, SAXS MoW2 that accompany the approach of
 
 ## Kratky analysis
 
-One way to verify the folding of a sample is to plot the data as \(q^2I(q)\) *vs* \(q\). This is called a Kratky plot and can simply be generated in RAW by right-cliking on the subtracted data plot and changing the \(y\)-axis to \(q^2I(q)\).
+One way to verify the folding of a sample is to plot the data as \(q^2I(q)\) *vs* \(q\). This is called a Kratky plot and can simply be generated in RAW by right-clicking on the subtracted data plot and changing the \(y\)-axis to \(q^2I(q)\).
 
 ![](img/kratky.png)
 
@@ -178,7 +178,7 @@ Once all this hard work has been done, RAW lets you save your "workspace", which
 
 ## Moving on to the next steps
 
-[Advanced data processing and *ab initio* modelling](/advanced_data_processing/)
+[Advanced data processing](/advanced_data_processing/)
 
 
 [Myatt *et al* 2017]: https://content.iospress.com/articles/biomedical-spectroscopy-and-imaging/bsi167

@@ -1,7 +1,7 @@
 ---
 title: Running a SAXS experiment
 author: Normand Cyr
-date: 2019-03-11
+date: 2020-04-17
 ...
 
 # SAXS experiment
@@ -20,7 +20,7 @@ Alternatively, yet *not recommended*, size-exclusion chromatography buffer or di
 
 Also, if possible, avoid high concentrations of [osmolytes](https://en.wikipedia.org/wiki/Osmolyte) (glycine, betaine, sucrose, glycerol *etc*) as they will decrease the scattering contrast with the sample. High salt concentrations above 1 M should also be avoided for the same reason.
 
-The sample needs to be monodisperse. This can easily be estimated by gel filtration, non-denaturing gel electrophoresis or dynamic light scattering.
+The sample needs to be mono-disperse. This can easily be estimated by gel filtration, non-denaturing gel electrophoresis or dynamic light scattering.
 
 Appropriate concentration of sample for good scattering signal: **1 – 10 mg/ml** (lower concentrations will not give meaningful data). Nucleic acids scatter X rays approximately 5 times more than proteins (because of their higher electron density), thus allowing lower concentrations. At least **50 µl of sample** (more is better) is required for SAXS analysis and preparation of dilution series, and 1 ml of matching buffer should be sufficient. If detergents are required for the stability of the sample, avoid detergent concentrations above [critical micelle concentration](https://en.wikipedia.org/wiki/Critical_micelle_concentration) (CMC) (some exceptions may apply)
 

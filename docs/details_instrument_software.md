@@ -1,12 +1,12 @@
 ---
-title: Softwares used by the instrument
+title: Software used by the instrument
 author: Normand Cyr
-date: 2019-03-14
+date: 2020-04-17
 ...
 
-# Softwares used by the instrument
+# Software used by the instrument
 
-Several softwares are in place in order to control the various pieces of the BioSAXS instrument. The toolbar to open them is located at the bottom of the screen and looks like the following:
+Several pieces of software are in place in order to control the various pieces of the BioSAXS instrument. The toolbar to open them is located at the bottom of the screen and looks like the following:
 
 ![SAXSLAB shortcut](img/saxslab_shortcuts.png)
 
@@ -22,14 +22,14 @@ Each button is responsible for opening a different software.
 | RAW    | BioXtas RAW for data visualization and analysis           |
 | ED     | `gedit` text editor                                       |
 
-If a button is yellow, it means the software is closed, whereas a blue button indicates that the corresponding software is open. By clicking the blue-coloured button, you will be directed to the corresponding window.
+If a button is yellow, it means the software is closed, whereas a blue button indicates that the corresponding software is open. By clicking the blue-colored button, you will be directed to the corresponding window.
 
 *Note: in case that the toolbar is not present, it can be opened manually by clicking on the `Ganesha System Control Panel` on the desktop.*
 
 
 ## SPEC
 
-SPEC is the terminal software used to communicate between the various other softwares and the instrumental hardware of the BioSAXS (shutter, detector *etc*.). A terminal window should be open on the desktop. If not, SPEC can be started from the shortcut bar located at the bottom of the screen, by clicking on SPEC.
+SPEC is the terminal software used to communicate between the various other software and the instrumental hardware of the BioSAXS (shutter, detector *etc*.). A terminal window should be open on the desktop. If not, SPEC can be started from the shortcut bar located at the bottom of the screen, by clicking on SPEC.
 
 ![SAXSLAB shortcut SPEC](img/saxslab_shortcuts_spec.png)
 
@@ -55,7 +55,7 @@ Closing Shutter
 
 ```
 
-will open the shutter, measure the beam count for 0.1 second and then close the shutter. Normally, there should not be any input from the regular users in this terminal.
+will open the shutter, measure the beam count for 0.1 second and then close the shutter. We expect a photon flux of \(2.5 \times 10^8 s^{-1}\) or more. Nonetheless, normally, there should not be any input from the regular users in this terminal.
 
 
 ## DET

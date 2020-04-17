@@ -12,7 +12,7 @@ theme:
 nav:
   - Instrumentation:
     - Overview: overview_instrumentation.md
-    - Softwares: details_instrument_softwares.md
+    - Software: details_instrument_software.md
     - Maintenance: maintenance.md
   - Running a SAXS experiment:
     - Basic SAXS: saxs_experiment.md
@@ -21,9 +21,9 @@ nav:
     - Basic data processing: basic_data_processing.md
     - Advanced processing: advanced_data_processing.md
     - SEC-SAXS data processing: sec-saxs.md
-  - Ab initio modelling:
-    - DAMMIF: modelling_with_dammif.md
-    - DENSS: modelling_with_denss.md
+  - Ab initio modeling:
+    - DAMMIF: modeling_with_dammif.md
+    - DENSS: modeling_with_denss.md
 
 extra_css:
     - css/extra.css
