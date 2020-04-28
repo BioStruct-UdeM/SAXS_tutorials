@@ -8,7 +8,7 @@ date: 2020-04-17
 
 ## Pairwise distribution
 
-Once a proper [Guinier analysis](/basic_data_processing/#guinier-analysis) is achieved and there is no indication of molecular aggregation or repulsion, the calculation of the pairwise distribution function \(P(r)\), the inverse Fourier transform (IFT) of \(I(q)\) *vs* \(q\), is the next step in the analysis of the SAXS data.  Several pieces of software have been developed, including [GNOM](./#gnom) and the [Bayesian IFT](./#BIFT) approaches.
+Once a proper [Guinier analysis](basic_data_processing.md#guinier-analysis) is achieved and there is no indication of molecular aggregation or repulsion, the calculation of the pairwise distribution function \(P(r)\), the inverse Fourier transform (IFT) of \(I(q)\) *vs* \(q\), is the next step in the analysis of the SAXS data.  Several pieces of software have been developed, including [GNOM](#GNOM) and the [Bayesian IFT](#BIFT) approaches.
 
 The \(P(r)\) function describes the distribution of all electron-pair distances within the sample. This function will be characteristic of the shape of the sample. An illustration taken from [Mertens and Svergun (2010)] is given below.
 
@@ -25,7 +25,7 @@ The most common such method is implemented in the GNOM program from the ATSAS pa
 
 ![](img/gnom_window.png)
 
-Initial approximations of \(I(0)\), \(R_g\) and \(D_{max}\) values are reported, along with their uncertainties. The [previously obtained](../basic_data_processing/#guinier-analysis) Guinier approximation results are reported also so one can compare the results of the different approaches. They generally should agree well.
+Initial approximations of \(I(0)\), \(R_g\) and \(D_{max}\) values are reported, along with their uncertainties. The [previously obtained](basic_data_processing.md#guinier-analysis) Guinier approximation results are reported also so one can compare the results of the different approaches. They generally should agree well.
 
 An assessment of the quality of the function is nonetheless important. GNOM will report a `Total Estimate` (TE), which varies from 0 (no agreement between experimental data and the fit) to 1 (perfect match). A quick way to verify is also to read the `GNOM says` output. Depending on the total estimate, GNOM will say `Excellent` (TE \(≥\) 0.9), `Good` (0.9 \(>\) TE \(≥\) 0.75), `Reasonable` (0.75 \(>\) TE \(≥\) 0.5) or `Suspicious` (TE \(<\) 0.5).
 
@@ -45,16 +45,16 @@ Do not forget to save your data (the `.out` file) in the `processed_data` sub-di
 
 `<project_name>/processed_data/GNOM/S_A_<experiment_number><sample_name>.out`
 
-This file will be used later as input for [DAMMIF](../modeling_with_dammif/) for dummy atom modeling, or for [DENSS](../modeling_with_denss/) for electron density modeling.
+This file will be used later as input for [DAMMIF](modeling_with_dammif.md) for dummy atom modeling, or for [DENSS](modeling_with_denss.md) for electron density modeling.
 
 
 ### BIFT
 
 A Bayesian approach for calculating the pairwise distribution function \(P(r)\), first proposed by [Hansen (2000)], is another way of calculating the pairwise distribution function \(P(r)\). In RAW, using the buffer-subtracted data (`S_A_<experiment_number><sample_name>.dat` file), the software can be accessed with a right-click on the filename and choosing the option `IFT (BIFT)`. A new window will open and a \(P(r)\) function will be generated (top plot), along with the corresponding fit to the experimental data (bottom plot).
 
-Similar to the output of GNOM, values of \(I(0)\), \(R_g\) and \(D_{max}\) are reported, along with their uncertainties. This method has the advantage of having only one solution, and parameters cannot be adjusted. The [previously obtained](../basic_data_processing/#guinier-analysis) Guinier approximation results are reported also so one can compare the results of the different approaches. They generally should agree well.
+Similar to the output of GNOM, values of \(I(0)\), \(R_g\) and \(D_{max}\) are reported, along with their uncertainties. This method has the advantage of having only one solution, and parameters cannot be adjusted. The [previously obtained](basic_data_processing.md#guinier-analysis) Guinier approximation results are reported also so one can compare the results of the different approaches. They generally should agree well.
 
-One caveat of the BIFT method is that the output file is not compatible with [DAMMIF](../modeling_with_dammif/) for dummy atom modeling, but can be used for [DENSS](../modeling_with_denss/) for electron density modeling.
+One caveat of the BIFT method is that the output file is not compatible with [DAMMIF](modeling_with_dammif.md) for dummy atom modeling, but can be used for [DENSS](modeling_with_denss.md) for electron density modeling.
 
 
 [Franck *et al.* 2017]: https://www.ncbi.nlm.nih.gov/pubmed/28808438

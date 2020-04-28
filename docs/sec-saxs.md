@@ -8,7 +8,7 @@ Currently in developement. Another RAW tutorial describes well the process. You 
 
 # SEC-SAXS data analysis
 
-If you followed appropriately the steps presented in the [SEC-SAXS setup](/sec-saxs_setup) section, you should have collected hundreds of images (likely between 100 and 200 frames).
+If you followed appropriately the steps presented in the [SEC-SAXS setup](sec-saxs_setup.md) section, you should have collected hundreds of images (likely between 100 and 200 frames).
 
 ![](img/sec-saxs_bsa_multiple-traces.png)
 
@@ -31,7 +31,7 @@ We now need to select the region that will be used for buffer subtraction.  As a
 
 ![](img/sec-saxs_buffer_auto.png)
 
-On satisfied with the buffer region, click on `Set buffer` to set the buffer region. At this point, an average SAXS profile from the buffer region will be used to subtract the buffer from all SAXS profiles recorded and [AutoRG](/basic_data_processing/#guinier-plot-in-raw) will be performed to try to determine a \(R_g\) and a \(I_0\) at each frame point (along with the corresponding molecular weight using both the \(V_c\) and \(V_p\) [methods](/basic_data_processing/#molecular-weight-analysis)). The \(R_g\) data is then plotted for each frame (red filled circles here).
+On satisfied with the buffer region, click on `Set buffer` to set the buffer region. At this point, an average SAXS profile from the buffer region will be used to subtract the buffer from all SAXS profiles recorded and [AutoRG](basic_data_processing.md#guinier-plot-in-raw) will be performed to try to determine a \(R_g\) and a \(I_0\) at each frame point (along with the corresponding molecular weight using both the \(V_c\) and \(V_p\) [methods](basic_data_processing.md#molecular-weight-analysis)). The \(R_g\) data is then plotted for each frame (red filled circles here).
 
 ![](img/sec-saxs_rg.png)
 
@@ -54,9 +54,9 @@ Then the average subtracted data can be plot by clicking on `To Main Plot`. Here
 
 ![](img/sec-saxs_subtracted_with-cut.png)
 
-Additional data processing follow the standard procedure for the [Guinier analysis](/basic_data_processing/#guinier-analysis) and the [pairwise distribution](/advanced_data_processing/#pairwise-distribution) (*ie* GNOM or BIFT).
+Additional data processing follow the standard procedure for the [Guinier analysis](basic_data_processing.md#guinier-analysis) and the [pairwise distribution](advanced_data_processing.md#pairwise-distribution) (*ie* GNOM or BIFT).
 
-Make sure to save your SAXS profile data (see [here](/basic_data_processing/#buffer-subtraction)) and your series data by selecting the file name and clicking on `Save`. You should save the SEC-SAXS scattergram data under
+Make sure to save your SAXS profile data (see [here](basic_data_processing.md#buffer-subtraction)) and your series data by selecting the file name and clicking on `Save`. You should save the SEC-SAXS scattergram data under
 
 `<project_name>/processed_data/series/`
 
@@ -71,6 +71,6 @@ The baseline corrected scattergram will open in the `Baseline corrected` tab. If
 
 ![](img/sec-saxs_baseline_corrected.png)
 
-You can then send the corrected average scattering profile to the `Main plot` by clicking on `To Main Plot`. Repeat the standard procedure for the [Guinier analysis](/basic_data_processing/#guinier-analysis) and the [pairwise distribution](/advanced_data_processing/#pairwise-distribution) (*ie* GNOM or BIFT). Compare the results between the uncorrected pairwise distribution (left) and baseline corrected one (right). Improvements may be minor.
+You can then send the corrected average scattering profile to the `Main plot` by clicking on `To Main Plot`. Repeat the standard procedure for the [Guinier analysis](basic_data_processing.md#guinier-analysis) and the [pairwise distribution](advanced_data_processing.md#pairwise-distribution) (*ie* GNOM or BIFT). Compare the results between the uncorrected pairwise distribution (left) and baseline corrected one (right). Improvements may be minor.
 
 ![](img/sec-saxs_GNOM_baseline_comparison.png)

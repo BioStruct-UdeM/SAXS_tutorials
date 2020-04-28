@@ -57,7 +57,7 @@ and the `.dat` files for subtracted curves should be saved in
 
 ### Detecting buffer mismatch
 
-It is important to pay attention and prevent over- or under-subtraction of the buffer. This may happen typically if the proper **matching** buffer was not used (see paragraphs 1 and 2 of the [Sample requirement section](/saxs_experiment/#sample-requirement)).
+It is important to pay attention and prevent over- or under-subtraction of the buffer. This may happen typically if the proper **matching** buffer was not used (see paragraphs 1 and 2 of the [Sample requirement section](saxs_experiment.md#sample-requirement)).
 
 ![](img/buffer_subtraction.png)
 Source: [Skou *et al* 2014]
@@ -178,7 +178,7 @@ Once all this hard work has been done, RAW lets you save your "workspace", which
 
 ## Moving on to the next steps
 
-[Advanced data processing](/advanced_data_processing/)
+[Advanced data processing](advanced_data_processing.md)
 
 
 [Myatt *et al* 2017]: https://content.iospress.com/articles/biomedical-spectroscopy-and-imaging/bsi167

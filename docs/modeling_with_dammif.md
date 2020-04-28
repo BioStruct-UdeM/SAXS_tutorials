@@ -31,7 +31,7 @@ Source: [Franke 2012](https://www.embl-hamburg.de/biosaxs/courses/embo2012/slide
 
 ## DAMMIF/DAMMIN via RAW
 
-RAW offers a nice GUI for running *ab initio* dummy atom modeling from SAXS data. If you rather run DAMMIF *et al.* from the command prompt, go to the [next section](/modeling_with_dammif/#dammifdammin-via-the-command-prompt). Otherwise, in RAW, right-click on the GNOM `.out` file and select `Bead Model (DAMMF/N)`. This will open a new dialog window.
+RAW offers a nice GUI for running *ab initio* dummy atom modeling from SAXS data. If you rather run DAMMIF *et al.* from the command prompt, go to the [next section](modeling_with_dammif.md#dammifdammin-via-the-command-prompt). Otherwise, in RAW, right-click on the GNOM `.out` file and select `Bead Model (DAMMF/N)`. This will open a new dialog window.
 
 ![DAMMIF/N dialog window in RAW](img/dammif_dialog.png)
 

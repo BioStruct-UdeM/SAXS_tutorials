@@ -6,7 +6,7 @@ date: 2020-04-17
 
 # SAXS experiment
 
-SAXS is a contrast method where the scattering signal is obtained from the difference in electron density between a molecule in solution (\(\rho_{sample}\)) and bulk solvent (\(\rho_{buffer}\)), scattering resulting from the buffer has to be subtracted from the measured scattering of the sample to isolate the sole contribution from the molecule (see the [Basic SAXS data processing](/basic_data_processing/#buffer-subtraction) section).
+SAXS is a contrast method where the scattering signal is obtained from the difference in electron density between a molecule in solution (\(\rho_{sample}\)) and bulk solvent (\(\rho_{buffer}\)), scattering resulting from the buffer has to be subtracted from the measured scattering of the sample to isolate the sole contribution from the molecule (see the [Basic SAXS data processing](basic_data_processing.md#buffer-subtraction) section).
 
 \(\Delta\rho_{molecule} =  \rho_{sample} - \rho_{buffer} \)
 
