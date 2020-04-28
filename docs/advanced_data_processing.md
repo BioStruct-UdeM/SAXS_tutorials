@@ -8,7 +8,7 @@ date: 2020-04-17
 
 ## Pairwise distribution
 
-Once a proper [Guinier analysis](basic_data_processing.md#guinier-analysis) is achieved and there is no indication of molecular aggregation or repulsion, the calculation of the pairwise distribution function \(P(r)\), the inverse Fourier transform (IFT) of \(I(q)\) *vs* \(q\), is the next step in the analysis of the SAXS data.  Several pieces of software have been developed, including [GNOM](#GNOM) and the [Bayesian IFT](#BIFT) approaches.
+Once a proper [Guinier analysis](basic_data_processing.md#guinier-analysis) is achieved and there is no indication of molecular aggregation or repulsion, the calculation of the pairwise distribution function \(P(r)\), the inverse Fourier transform (IFT) of \(I(q)\) *vs* \(q\), is the next step in the analysis of the SAXS data.  Several pieces of software have been developed, including [GNOM](#gnom) and the [Bayesian IFT](#bift) approaches.
 
 The \(P(r)\) function describes the distribution of all electron-pair distances within the sample. This function will be characteristic of the shape of the sample. An illustration taken from [Mertens and Svergun (2010)] is given below.
 
