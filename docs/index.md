@@ -4,8 +4,11 @@ author: Normand Cyr
 date: 2020-04-17
 ...
 
-
 # Welcome to the SAXS tutorials
+
+<p class="red">
+  The SAXS tutorials have migrated to the <a href="https://wiki.umontreal.ca/display/BiologieStructurale/BioSAXS+tutorials">Wiki page</a> of the Structural Biology Platform</p>
+
 
 For information about the Structural Biology Platform, visit our [website](https://biochimie.umontreal.ca/en/scientific-platforms-bmm/structural-biology/).
 
